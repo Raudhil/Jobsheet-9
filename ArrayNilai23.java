@@ -5,12 +5,16 @@ public class ArrayNilai23 {
         Scanner sc = new Scanner(System.in);
         int[] nilaiAkhir = new int[10];
 
-        for (int i = 0 ; i < 10; i++){
+        for (int i = 0 ; i < nilaiAkhir.length; i++){
             System.out.print("Masukkan nilai akhir ke-" + i + " : ");
             nilaiAkhir[i] = sc.nextInt();
         }
         for (int j = 0; j < 10; j++){
-            System.out.println("Nilai akhir ke-" + j + " adalah " + nilaiAkhir[j]);
+            if (nilaiAkhir[j] > 70){
+            System.out.println("Mahasiswa ke-" + j + " lulus!");
+            } else {
+                System.out.println("Mahasiswa ke-" + j + " tidak lulus!");
+            }
         }
     }
 }
