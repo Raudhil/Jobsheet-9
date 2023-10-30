@@ -32,7 +32,7 @@ public class Nilai {
         }
 
         System.out.println("Jadi nilai tertingi adalah " + nilai[index - 1]);
-        System.out.println("Dan nilai terendahnya adalah " + nilai[03]);
+        System.out.println("Dan nilai terendahnya adalah " + nilai[0]);
         System.out.println("Lalu rata - ratanya adalah " + rata2);
 
     }
